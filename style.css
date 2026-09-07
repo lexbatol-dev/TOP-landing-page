@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* outline: 3px dashed rgb(148, 39, 14); */
+}
+
+header {
+  background: #1f2937;
+  color: #f9faf8;
+  padding: 8px 16px 100px;
+}
+
+.logo {
+  width: auto;
+  height: 40px;
+}
+
+.nav-row {
+  /* background: red; */
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 70px;
+}
+
+.nav-row ul {
+  /* background: yellow; */
+  display: flex;
+  list-style: none;
+  gap: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: #f9faf8;
+}
+
+.hero-section {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 48px;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 16px;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.hero-text p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.hero-text button {
+  align-self: flex-start;
+  border: none;
+  border-radius: 8px;
+  background-color: #3882f6;
+  color: #f9faf8;
+  padding: 12px 24px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.hero-image {
+  flex: 1;
+}
+
+.hero-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+.information-section {
+  text-align: center;
+  padding: 64px 16px;
+}
+
+.information-section h2 {
+  font-size: 32px;
+  color: #1f2937;
+  font-weight: 900;
+  padding-bottom: 48px;
+}
+
+.cards-row {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.cards-row figure {
+  flex: 1;
+  padding-bottom: 12px;
+}
+
+.cards-row img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  border: 2px solid #3882f6;
+  border-radius: 8px;
+}
+
+.cards-row figcaption {
+  margin-top: 16px;
+}
+
+.quote-section {
+  background: #e5e7eb;
+  padding: 96px 16px;
+}
+
+.quote-section blockquote {
+  font-size: 32px;
+  font-weight: 300;
+  font-style: italic;
+  max-width: 900px;
+  margin: 48px auto;
+  color: #1f2937;
+}
+
+blockquote footer {
+  text-align: right;
+  font-weight: bold;
+  font-style: normal;
+  margin-top: 24px;
+}
+
+.action-section {
+  max-width: 1000px;
+  margin: 96px auto;
+  background: #3882f6;
+  padding: 68px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  border-radius: 8px;
+  color: #f9faf8;
+}
+
+.action-text {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.action-section button {
+  border: 2px solid #f9faf8;
+  background: none;
+  color: #f9faf8;
+  border-radius: 8px;
+  padding: 12px 24px;
+  font-weight: bold;
+  cursor: pointer;
+}
