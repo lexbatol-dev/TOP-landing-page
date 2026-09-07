@@ -13,7 +13,7 @@ header {
 
 .logo {
   width: auto;
-  height: 40px;
+  height: 60px;
 }
 
 .nav-row {
@@ -91,7 +91,7 @@ a {
 }
 
 .information-section h2 {
-  font-size: 32px;
+  font-size: 36px;
   color: #1f2937;
   font-weight: 900;
   padding-bottom: 48px;
@@ -129,7 +129,7 @@ a {
 }
 
 .quote-section blockquote {
-  font-size: 32px;
+  font-size: 36px;
   font-weight: 300;
   font-style: italic;
   max-width: 900px;
@@ -137,7 +137,7 @@ a {
   color: #1f2937;
 }
 
-blockquote footer {
+footer {
   text-align: right;
   font-weight: bold;
   font-style: normal;
@@ -170,4 +170,11 @@ blockquote footer {
   padding: 12px 24px;
   font-weight: bold;
   cursor: pointer;
+}
+
+.page-footer {
+  background: #1f2937;
+  color: #f9faf8;
+  padding: 48px;
+  text-align: center;
 }
