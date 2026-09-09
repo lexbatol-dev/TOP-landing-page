@@ -11,11 +11,11 @@ Open `index.html` in your browser, or use a local server (e.g. VS Code Live Prev
 ## What I practiced
 
 - Flexbox layout (`flex-direction`, `justify-content`, `align-items`, `flex-wrap`, `flex-grow`/`flex-shrink`/`flex-basis`)
-- Block vs. flex layout — recognizing when a container actually needs `display: flex` vs. relying on default block stacking
+- Block vs. flex layouts
 - Centering techniques: `margin: 0 auto` + `max-width` for boxed content vs. full-width backgrounds
 - Semantic HTML (`header`, `figure`/`figcaption`, `blockquote`/`footer`)
 - CSS specificity and selector scoping (avoiding accidental selector clashes)
-- Image optimization: sizing, compression, and matching HTML dimensions to real file size
+- Image optimization: sizing and compression
 
 ## Built with
 
