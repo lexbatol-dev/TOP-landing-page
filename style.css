@@ -182,3 +182,9 @@ footer {
   padding: 48px;
   text-align: center;
 }
+
+@media (max-width: 768px) {
+  .hero-section {
+    flex-direction: column;
+  }
+}
